@@ -1,0 +1,137 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #3d5385;
+    font-weight: 700;
+}
+nav {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+header.masthead {
+    position: relative;
+    background: #343a40 url("../img/bg-masthead.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+header.masthead .logo {
+    max-width: 16rem;
+}
+
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+
+.container .logo {
+    max-width: 16rem;
+}
+
+.btn-outline-primary {
+    color: white;
+    border: white 3px solid;
+    border-radius: 0;
+    font-weight: 700;
+}
+.btn-outline-primary:hover {
+    background-color: #3d5385;
+    border-color: #3d5385;
+}
+
+.btn-outline-secondary {
+    color: #506ea0;
+    border: #506ea0 3px solid;
+    border-radius: 0;
+    font-weight: 700;
+}
+.btn-outline-secondary:hover {
+    background-color: #3d5385;
+    border-color: #3d5385;
+}
+
+.speaker h4 {
+    margin-top:20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.speaker img {
+    height: 200px;
+    width:200px;
+    border-radius:100%;
+    cursor: pointer;
+}
+
+.organiser img {
+    width:100px;
+    height:100px;
+    margin-right: 20px;
+    border-radius:100%;
+    cursor: pointer;
+}
+.organiser h4 {
+    margin-top: 20px;
+    margin-bottom:0;
+    cursor: pointer;
+}
+
+.modal-header,
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-body img {
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    float: left;
+    margin-right: 1rem;
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.table .thead-dark th {
+    background-color: #506ea0;
+    border-color: #506ea0;
+}
+
+.timeframe-round {
+    margin-top:16px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.bst-time {
+    display: none;
+    color: #506ea0;
+}
+.pst-time {
+    color: #506ea0;
+}
+
+.build_info {
+    font-size:10px;
+}
+
+.schedule-collapsable {
+    display: none;
+}
